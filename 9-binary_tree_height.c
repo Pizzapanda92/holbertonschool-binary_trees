@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_preorder - Goes through a binary tree using pre-order traversal
+ * binary_tree_height - Computes the height of a binary tree
  * @tree: A pointer to the root node of the tree to traverse
- * @func: A pointer to a function to call for each node
+ * Return: height of a b-tree or zero if tree is NULL
  */
 
 size_t binary_tree_height(const binary_tree_t *tree)
@@ -12,8 +12,6 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (0);
-
-//	return (height + 1);
 
 
 	if (tree->left)
