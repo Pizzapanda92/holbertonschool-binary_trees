@@ -63,10 +63,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (left_height == right_height && left_depth == right_depth)
 	{
-		return(1);
+		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
